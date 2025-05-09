@@ -3,7 +3,7 @@ import aset1 from "../aset/aset1.png";
 
 export const Navigasi = () => {
   return (
-    <div className="fixed top-0 right-0 w-25">
+    <div className="fixed top-0 right-0 w-250">
       <div className="bg-sky-100 p-5 flex justify-between rounded-2xl">
         <div>
           <h1>Dashboard </h1>
