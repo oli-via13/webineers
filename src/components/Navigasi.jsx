@@ -15,7 +15,7 @@ export const Navigasi = () => {
             <img src={aset1} alt="" />
           </div>
           <div className="">
-            <h1>Chelsea Maweikere</h1>
+            <h1>Chelsea Maweikereeeee</h1>
           </div>
         </div>
       </div>
