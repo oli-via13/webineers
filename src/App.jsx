@@ -1,12 +1,15 @@
-import './index.css'
+import Komponen from "./components/Komponen";
+import { Navigasi } from "./components/Navigasi";
+import Sidebar from "./components/Sidebar";
+import "./index.css";
 
 function App() {
-
   return (
     <>
-     <h1 className='font-bold text-amber-200'> HELLO WORD</h1>
+      <Sidebar />
+      <Navigasi />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
