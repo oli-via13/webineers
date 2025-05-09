@@ -15,7 +15,7 @@ function App() {
     <TigaBox/>
     <ListBox nomor="1" kegiatan="Ujian Math" waktu="09:00 - 11:00"/>
     <ListBox nomor="2" kegiatan="Konsultasi Unity" waktu="22:00 - 22:30"/>
-    <ListBox nomor="3" kegiatan="Date with U" waktu="199999.00"/>
+    <ListBox nomor="3" kegiatan="Date with U" waktu="199999.000"/>
       <Sidebar />
       <Navigasi />
     </>
