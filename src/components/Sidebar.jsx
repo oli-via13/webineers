@@ -3,9 +3,9 @@ import React from "react";
 const Sidebar = () => {
   return (
     <div className="">
-      <div className="bg-blue-600 max-w-[233px] h-screen ">
+      <div className="bg-[#2D336B] max-w-[233px] h-screen ">
         <h1 className="font-bold text-amber-200 "></h1>
-        <nav className="text-white mt-5 px-10">
+        <nav className="text-white  px-10">
           <div className="py-5">
             <h1 className="">Webineers</h1>
           </div>
