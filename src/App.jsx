@@ -9,7 +9,12 @@ import { Navigasi } from "./components/Navigasi";
 import Sidebar from "./components/Sidebar";
 import "./index.css";
 import Form from "./components/Form";
+
 import Kotak from "./components/Kotak";
+
+import TigaBox2 from "./components/TigaBox2";
+import Diagram1 from "./components/Diagram1";
+
 
 function App() {
   return (
@@ -53,6 +58,17 @@ function App() {
             <div>
               <Form />
             </div>
+
+
+            <div>
+              <TigaBox2/>
+            </div>
+
+            <div>
+              <Diagram1/>
+            </div>
+
+
           </div>
         </div>
       </div>
