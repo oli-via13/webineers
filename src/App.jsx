@@ -17,17 +17,17 @@ function App() {
 
       <div className="flex gap-5 h-auto">
 
-        <div>
+        <div className="hidden sm:block">
           <Sidebar />
         </div>
         
         <div className="">
-          <Navigasi />
+          <div className="block"><Navigasi/></div>
 
           <div className="mt-40 ml-15">
             <div> <TigaBox/> </div>
 
-            <div className="flex justify-center items-center gap-6 mt-5">
+            <div className="sm:flex justify-center items-center gap-6 mt-5">
               <div>
                 <ListBox nomor="1" kegiatan="Ujian Math" waktu="09:00 - 11:00" />
                 <ListBox nomor="2" kegiatan="Konsultasi Unity" waktu="22:00 - 22:30" />

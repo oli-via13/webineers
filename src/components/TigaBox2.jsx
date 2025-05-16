@@ -1,20 +1,19 @@
 import React from 'react'
-import gambar1 from '../../public/assets/diagram.png'
-import gambar2 from '../../public/assets/streak.png'
+import gambar1 from '../../public/assets/streak.png'
 
-const TigaBox = () => {
+const TigaBox2 = () => {
   return (
     <>
 
       <div className='flex flex-col sm:flex-row gap-18 justify-center items-center'>
             <div className='bg-white shadow-lg rounded-xl border-2 mb-2 md:w-70 h-30 w-70'> 
-              <img className='w-full h-full mx-auto object-contain px-2' src={gambar1} alt="" />
+                <h2 className='font-bold text-[#2D336B] text-2xl ml-3'> Level XP </h2>
             </div>
       
             <div className='bg-white shadow-lg rounded-xl border-2 mb-2 w-70 h-30'>
               <h2 className='font-bold text-[#2D336B] text-2xl ml-3'> Streak</h2>
               <div className='flex'>
-                <img className='-mt-10' src={gambar2} alt="" />
+                <img className='-mt-10' src={gambar1} alt="" />
                 <h2 className='font-bold text-[#2D336B] text-5xl'> 100</h2>
               </div>
             </div>
@@ -31,4 +30,4 @@ const TigaBox = () => {
   )
 }
 
-export default TigaBox
+export default TigaBox2
