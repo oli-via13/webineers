@@ -9,6 +9,8 @@ import { Navigasi } from "./components/Navigasi";
 import Sidebar from "./components/Sidebar";
 import "./index.css";
 import Form from "./components/Form";
+import TigaBox2 from "./components/TigaBox2";
+import Diagram1 from "./components/Diagram1";
 
 function App() {
 
@@ -40,6 +42,14 @@ function App() {
             </div>
             <div>
               <Form/>
+            </div>
+
+            <div>
+              <TigaBox2/>
+            </div>
+
+            <div>
+              <Diagram1/>
             </div>
 
           </div>
